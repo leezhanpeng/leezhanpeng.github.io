@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+p {
+    margin: 0;
+}
+
+br {
+    display: block;
+    content: "";
+    margin: 20px 0;
+}
+
+.arrows {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 60px;
+	height: 72px;
+    top: 10px;
+    transition: 1s all ease;
+}
+
+.arrows path     {
+    opacity: 0;
+	stroke: #8a7d63;
+	fill: transparent;
+	stroke-width: 1px;
+}
+
+.a1 {
+    animation: appear 1s 4s, arrow 2s 3s infinite;
+}
+
+.a2 {
+    animation: appear 1s 4s, arrow 2s 3.5s infinite;
+}
+
+.a3 {	
+    animation: appear 1s 4s, arrow 2s 4s infinite;
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.introduction {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #232323;
+    height: 500vh;
+    margin-top: -120px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.intro-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 80px;
+    color: rgb(240, 240, 240);
+    padding-bottom: 80px;
+}
+
+.intro-title {
+    font-family: 'Quicksand', 'Poppins', sans-serif;
+    text-decoration: underline solid;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.intro-para {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    max-width: 50%;
+    text-align: left
+}
+
+.scroll-appear {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.disappear {
+    opacity: 0;
+}
+
+.experiences {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 40px;
+    color: rgb(240, 240, 240);
+}
+
+.exp-title {
+    padding-top: 50px;
+    font-family: 'Quicksand', 'Poppins', sans-serif;
+    text-decoration: underline solid;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.exp-block {
+    display: flex;
+}
+
+.exp-texts {
+    align-items: stretch;
+}
+
+.exp-name {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(247, 247, 247);
+}
+
+.exp-desc {
+    font-size: 20px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.stb {
+    width: 250px;
+    padding-right: 30px;
+}
+
+.skills {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 40px;
+    color: rgb(240, 240, 240);
+}
+
+.skills-title {
+    padding-top: 50px;
+    font-family: 'Quicksand', 'Poppins', sans-serif;
+    text-decoration: underline solid;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.skill-block {
+    display: flex;
+    align-items:center;
+    padding: 20px;
+}
+
+.skill-name {
+    font-size: 30px;
+}
+
+.skill-desc {
+    font-size: 22px;
+    vertical-align: middle;
+    max-width: 600px;
+    text-align: left;
+}
+
+.python {
+    width: 250px;
+}
+
+.r {
+    width: 130px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.sql {
+    width: 220px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.java {
+    width: 150px;
+    padding-right: 47px;
+    padding-left: 47px;
+}
+
+@media screen and (max-width: 1000px) {
+    .intro-para {
+        max-width: 80%;
+    }
+    .stb {
+        width: 180px;
+        height: 128px;
+        padding-right: 30px;
+    }
+    
+    .skill-desc {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .exp-block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .stb {
+        width: 280px;
+        height: 200px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    .skill-desc {
+        max-width: 400px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .exp-name {
+        font-size: 25px;
+        max-width: 80%;
+        padding-left: 10%;
+    }
+    .exp-desc {
+        font-size: 20px;
+        max-width: 80%;
+        padding-left: 10%;
+    }
+    .skill-desc {
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    .skill-name {
+        padding-bottom: 30px;
+    }
+
+    .skill-block {
+        flex-direction: column;
+    }
+
+    .python {
+        width: 200px;
+    }
+    
+    .r {
+        width: 80px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    
+    .sql {
+        width: 180px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .java {
+        width: 100px;
+        padding-right: 47px;
+        padding-left: 47px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .opening-text p {
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    .photo {
+        margin-right: 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .intro-title {
+        font-size: 35px;
+    }
+    
+    .intro-para {
+        font-size: 15px;
+        max-width: 80%;
+    }
+
+    .skills-title {
+        font-size: 35px;
+    }
+
+    .skill-desc {
+        font-size: 18px;
+    }
+
+    .exp-desc {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .stb {
+        width: 150px;
+        height: 107px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .photo {
+        margin-right: 20px;
+        width: 130px;
+        height: 130px;
+    }
+
+    .intro-title {
+        font-size: 30px;
+    }
+    
+    .intro-para {
+        font-size: 15px;
+        max-width: 80%;
+    }
+
+    .skills-title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .opening-text p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
