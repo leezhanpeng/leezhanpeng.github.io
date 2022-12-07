@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/Frontpage.css';
 import portrait from '../images/Portrait.jpg';
 import nus from '../images/nus_logo.png';

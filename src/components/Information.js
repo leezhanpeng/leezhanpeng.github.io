@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/Information.css';
 import { forwardRef } from 'react';
 
