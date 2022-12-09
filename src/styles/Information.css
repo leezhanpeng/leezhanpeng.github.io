@@ -142,6 +142,106 @@ br {
     padding-right: 30px;
 }
 
+.github-icon {
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    padding-right: 30px;
+    filter: invert(100%);
+
+}
+
+.projects {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 40px;
+    color: rgb(240, 240, 240);
+}
+
+.image-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-title {
+    padding-top: 50px;
+    font-family: 'Quicksand', 'Poppins', sans-serif;
+    text-decoration: underline solid;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.project-block {
+    display: flex;
+    align-items:center;
+    padding: 20px;
+}
+
+.project-texts {
+    align-items: stretch;
+}
+
+.project-name {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+}
+
+.project-desc {
+    font-size: 20px;
+    vertical-align: middle;
+    max-width: 600px;
+    text-align: left;
+}
+
+.techstack {
+    padding: 20px 0px;
+    justify-content: center;
+    
+}
+
+.techstack-1 .python {
+    width: 110px;
+}
+
+.techstack-1 .pandas {
+    width: 70px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.techstack-1 .numpy {
+    width: 70px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.techstack-1 .keras {
+    width: 90px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.techstack-1 .scikitlearn {
+    width: 90px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.techstack-2 .react {
+    width: 60px;
+}
+
+.creditcardgif {
+    width: 300px;
+    border-radius: 25px;
+    margin-right: 30px;
+}
+
 .skills {
     position: relative;
     display: flex;
@@ -207,7 +307,7 @@ br {
         height: 128px;
         padding-right: 30px;
     }
-    
+
     .skill-desc {
         max-width: 500px;
     }
@@ -219,15 +319,33 @@ br {
         justify-content: center;
         align-items: center;
     }
+
     .stb {
         width: 280px;
         height: 200px;
         padding-right: 0px;
         padding-bottom: 10px;
     }
+
+    .creditcardgif {
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+
+    .github-icon {
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+
     .skill-desc {
         max-width: 400px;
         font-size: 20px;
+    }
+
+    .project-block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -242,6 +360,18 @@ br {
         max-width: 80%;
         padding-left: 10%;
     }
+
+    .project-name {
+        font-size: 25px;
+        max-width: 80%;
+        padding-left: 10%;
+    }
+    .project-desc {
+        font-size: 20px;
+        max-width: 80%;
+        padding-left: 10%;
+    }
+
     .skill-desc {
         max-width: 400px;
         font-size: 20px;
@@ -311,6 +441,10 @@ br {
     .exp-desc {
         font-size: 18px;
     }
+
+    .project-desc {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -320,6 +454,16 @@ br {
         padding-right: 0px;
         padding-bottom: 10px;
     }
+
+    .creditcardgif {
+        width: 200px;
+    }
+
+    .github-icon {
+        width: 40px;
+        height: 40px;
+    }
+
 }
 
 @media screen and (max-width: 400px) {

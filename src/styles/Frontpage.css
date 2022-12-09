@@ -167,23 +167,18 @@ p {
         height: 150px;
     }
 
-    .skills-title {
-        font-size: 35px;
-    }
-
     .logos {
         flex-direction: column;
     }
 
     .nus-block {
         padding-top: 50px;
-        padding-right: 0px;
-        padding-left: 45px;
+        padding-left: 55px;
     }
     
     .yjc-block {
         padding-top: 20px;
-        padding-left: 45px;
+        padding-left: 55px;
     }
     .nus {
         width: 230px;

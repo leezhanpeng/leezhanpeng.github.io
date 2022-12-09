@@ -2,8 +2,19 @@ import React from 'react';
 import '../styles/Information.css';
 import { forwardRef } from 'react';
 
+import github from '../images/github.png';
+
 import stb from '../images/stb-logo.png';
+
+import creditcardgif from '../images/creditcard.gif';
+import playbaylogo from '../images/playbay.jpg';
+
+import pandas from '../images/pandas.png';
+import numpy from '../images/numpy.png';
+import keras from '../images/keras.png';
+import scikitlearn from '../images/scikitlearn.png';
 import python from '../images/python-logo.png';
+import reactlogo from '../images/react.png';
 import r from '../images/r-logo.png';
 import sql from '../images/sql-logo.jpg';
 import java from '../images/java-logo.png';
@@ -84,6 +95,64 @@ const Information = forwardRef((props, ref) => {
                                     expenditure costs and provide explanation to their rising manpower expenditure.
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+                <div className="projects scroll-appear">
+                    <div className="projects-title">
+                        <p>Projects</p>
+                        <br />
+                    </div>
+                    <div className="projects-para">
+                        <div className="project-block">
+                            <div className="image-blocks">
+                                <img className="creditcardgif" src={creditcardgif}></img>
+                                <a href="https://github.com/leezhanpeng/Credit-Card-Application-Enhancement"><img className="github-icon" src={github}></img></a>
+                            </div>
+                            <div className="project-texts">
+                                <p className="project-name">Credit Card Application Enhancement</p>
+                                <p className="project-name" style={{color: "rgb(101, 255, 139)"}}>[Machine Learning]</p>
+                                <br />
+                                <p className="project-desc">
+                                    An ML project done for the module
+                                    IT1244 Artificial Intelligence: Technology and Impact.
+                                    <br />
+                                    The goal was to improve bank's current credit card application process by
+                                    integrating non-financial attributes of clients to the approval process of 
+                                    each credit card application.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="techstack techstack-1">
+                                <img className="python" src={python}></img>
+                                <img className="pandas" src={pandas}></img>
+                                <img className="numpy" src={numpy}></img>
+                                <img className="keras" src={keras}></img>
+                                <img className="scikitlearn" src={scikitlearn}></img>
+                        </div>
+                        <hr></hr>
+                        <div className="project-block">
+                            <div className="image-blocks">
+                                <img className="creditcardgif" src={playbaylogo}></img>
+                                <a href="https://github.com/leezhanpeng/Orbital2022"><img className="github-icon" src={github}></img></a>
+                            </div>
+                            <div className="project-texts">
+                                <p className="project-name">Online Web Browser Site (PlayBay)</p>
+                                <p className="project-name" style={{color: "rgb(101, 255, 139)"}}>[Software Development]</p>
+                                <br />
+                                <p className="project-desc">
+                                    A software engineering project done during the summer of 2022 as part of the module
+                                    CP2106 Individual Software Development Project.
+                                    <br />
+                                    The project is an online multiplayer browser game website that involves fullstack development.
+                                    It was an interesting project as this was my first exposure in enforcing SWE practices and also
+                                    the use of Git and Github for version control. Had a lot of fun curating the project!
+                                </p>
+                            </div>
+                        </div>
+                        <div className="techstack techstack-2">
+                                <img className="react" src={reactlogo}></img>
                         </div>
                     </div>
                 </div>

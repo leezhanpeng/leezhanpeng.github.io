@@ -29,7 +29,7 @@ const Navbar = ({ resultRef }) => {
     return ( 
         <ul className="navbar">
             <div className="navigate">
-                <li className="logo"><a onClick={toHome} className="nav-txt">ZP</a></li>
+                <li className="logo"><a onClick={toHome} className="nav-txt">Lee ZP</a></li>
                 <a onClick={toAbout} className="nav-btn"><li className="nav-txt">About</li></a>
                 <a onClick={toExp} className="nav-btn"><li className="nav-txt">Experiences</li></a>
                 <a onClick={toSkills} className="nav-btn"><li className="nav-txt">Skills</li></a>

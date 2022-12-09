@@ -8,18 +8,18 @@ body {
 }
 
 .navbar .logo .nav-txt {
-    color: red;
+    color: rgb(180, 180, 180);
     float: left;
     text-align: center;
     display: block;
     padding: 15px 15px;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 900;
     margin-left: 1vw;
     margin-right: 3vw;
 }
 
-.navbar{
+.navbar {
     z-index: 99;
     overflow: hidden;
     background-color: #232323;
@@ -135,6 +135,10 @@ body {
 
     .skills-title {
         font-size: 30px;
+    }
+
+    .icons {
+        padding-right: 25px;
     }
 }
 
