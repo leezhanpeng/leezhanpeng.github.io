@@ -10,7 +10,7 @@ const Frontpage = forwardRef((props, ref) => {
         <div className="frontpage" ref={ref.home}>
             <div className="frontpage-content">
                 <div className="photo">
-                    <img className="opening-image" src={portrait}></img>
+                    <img className="opening-image" alt="Zhan Peng's face" src={portrait}></img>
                 </div>
                 <div className="opening-text">
                     <p style={{fontWeight: 300}}>Hello, I am</p>
@@ -21,7 +21,7 @@ const Frontpage = forwardRef((props, ref) => {
 
             <div className="logos">
                 <div className="nus-block">
-                    <img className="nus" src={nus}></img>
+                    <img className="nus" alt="NUS logo" src={nus}></img>
                     <p className="year long-form">
                         Bachelor of Science (Hons) in
                         <br className="year-break"></br>
@@ -42,7 +42,7 @@ const Frontpage = forwardRef((props, ref) => {
                      </p>
                 </div>
                 <div className="yjc-block">
-                    <img className="yjc" src={yjc}></img>
+                    <img className="yjc" alt="YJC logo" src={yjc}></img>
                     <p className="year">
                         Yishun Junior College
                         <br className="year-break"></br>

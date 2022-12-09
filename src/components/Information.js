@@ -3,11 +3,13 @@ import '../styles/Information.css';
 import { forwardRef } from 'react';
 
 import github from '../images/github.png';
+import doc from '../images/document.png';
+import playbtn from '../images/playbutton.png';
 
 import stb from '../images/stb-logo.png';
 
 import creditcardgif from '../images/creditcard.gif';
-import playbaylogo from '../images/playbay.jpg';
+import playbaylogo from '../images/playbay.gif';
 
 import pandas from '../images/pandas.png';
 import numpy from '../images/numpy.png';
@@ -15,6 +17,9 @@ import keras from '../images/keras.png';
 import scikitlearn from '../images/scikitlearn.png';
 import python from '../images/python-logo.png';
 import reactlogo from '../images/react.png';
+import nodejs from '../images/nodejs.png';
+import mongodb from '../images/mongodb.png';
+import unity from '../images/unity.png';
 import r from '../images/r-logo.png';
 import sql from '../images/sql-logo.jpg';
 import java from '../images/java-logo.png';
@@ -63,7 +68,7 @@ const Information = forwardRef((props, ref) => {
                 <path className="a3" d="M0 40 L30 72 L60 40"></path>
             </svg>
 
-            <div>
+            <div className="full-background">
                 <div className="intro-content scroll-appear">
                     <div className="intro-title">
                         <p>About me</p>
@@ -85,7 +90,7 @@ const Information = forwardRef((props, ref) => {
                     </div>
                     <div className= "exp-para">
                         <div className='exp-block'>
-                            <img className="stb" src={stb}></img>
+                            <img className="stb" alt="STB logo" src={stb}></img>
                             <div className="exp-texts">
                                 <p className="exp-name">HR Data Analyst @ Singapore Tourism Board</p>
                                 <br />
@@ -98,7 +103,7 @@ const Information = forwardRef((props, ref) => {
                         </div>
                     </div>
                 </div>
-                <div></div>
+                <div ref={ref.projects}></div>
                 <div className="projects scroll-appear">
                     <div className="projects-title">
                         <p>Projects</p>
@@ -107,8 +112,11 @@ const Information = forwardRef((props, ref) => {
                     <div className="projects-para">
                         <div className="project-block">
                             <div className="image-blocks">
-                                <img className="creditcardgif" src={creditcardgif}></img>
-                                <a href="https://github.com/leezhanpeng/Credit-Card-Application-Enhancement"><img className="github-icon" src={github}></img></a>
+                                <img className="creditcardgif" alt="credit card gif" src={creditcardgif}></img>
+                                <div>
+                                    <a href="https://github.com/leezhanpeng/Credit-Card-Application-Enhancement"><img className="redirect-icon" alt="github icon" src={github}></img></a>
+                                    <a href="https://github.com/leezhanpeng/Credit-Card-Application-Enhancement/blob/main/Project%20Report.pdf"><img className="redirect-icon" alt="document icon" src={doc}></img></a>
+                                </div>
                             </div>
                             <div className="project-texts">
                                 <p className="project-name">Credit Card Application Enhancement</p>
@@ -125,17 +133,21 @@ const Information = forwardRef((props, ref) => {
                             </div>
                         </div>
                         <div className="techstack techstack-1">
-                                <img className="python" src={python}></img>
-                                <img className="pandas" src={pandas}></img>
-                                <img className="numpy" src={numpy}></img>
-                                <img className="keras" src={keras}></img>
-                                <img className="scikitlearn" src={scikitlearn}></img>
+                                <img className="python" alt="python logo" src={python}></img>
+                                <img className="pandas" alt="pandas logo" src={pandas}></img>
+                                <img className="numpy" alt="numpy logo" src={numpy}></img>
+                                <img className="keras" alt="keras logo"src={keras}></img>
+                                <img className="scikitlearn" alt="scikitlearn logo" src={scikitlearn}></img>
                         </div>
                         <hr></hr>
                         <div className="project-block">
                             <div className="image-blocks">
-                                <img className="creditcardgif" src={playbaylogo}></img>
-                                <a href="https://github.com/leezhanpeng/Orbital2022"><img className="github-icon" src={github}></img></a>
+                                <img className="playbay-logo" alt="playbay logo" src={playbaylogo}></img>
+                                <div>
+                                    <a href="https://github.com/leezhanpeng/Orbital2022"><img className="redirect-icon" alt="github icon" src={github}></img></a>
+                                    <a href="https://drive.google.com/file/d/1ppQXsLMzhuwa-fVF_erysG9s7_Sz9ipM/view?usp=sharing"><img className="redirect-icon" alt="document icon" src={doc}></img></a>
+                                    <a href="https://drive.google.com/file/d/16avL9P6SDLJYeIgjb5x6rxqOqzv_YpjI/view?usp=sharing"><img className="redirect-icon" alt="playbtn icon" src={playbtn}></img></a>
+                                </div>
                             </div>
                             <div className="project-texts">
                                 <p className="project-name">Online Web Browser Site (PlayBay)</p>
@@ -147,16 +159,19 @@ const Information = forwardRef((props, ref) => {
                                     <br />
                                     The project is an online multiplayer browser game website that involves fullstack development.
                                     It was an interesting project as this was my first exposure in enforcing SWE practices and also
-                                    the use of Git and Github for version control. Had a lot of fun curating the project!
+                                    the use of Git and Github for version control. Had a lot of fun developing the project!
                                 </p>
                             </div>
                         </div>
                         <div className="techstack techstack-2">
-                                <img className="react" src={reactlogo}></img>
+                                <img className="react" alt="react icon" src={reactlogo}></img>
+                                <img className="nodejs" alt="nodejs icon" src={nodejs}></img>
+                                <img className="mongodb" alt="mongodb icon" src={mongodb}></img>
+                                <img className="unity" alt="unity icon" src={unity}></img>
                         </div>
                     </div>
                 </div>
-                <div  ref={ref.skills}></div>
+                <div ref={ref.skills}></div>
                 <div className="skills scroll-appear">
                     <div className="skills-title">
                         <p>Skills</p>
@@ -165,7 +180,7 @@ const Information = forwardRef((props, ref) => {
                     <div className= "skills-para">
                         <div className='skill-block'>
                             <div>
-                                <img className="python" src={python}></img>
+                                <img className="python" alt="python icon" src={python}></img>
                                 <p className="skill-name">Python</p>
                             </div>
                             <p className="skill-desc">
@@ -178,7 +193,7 @@ const Information = forwardRef((props, ref) => {
                         <hr></hr>
                         <div className='skill-block'>
                             <div>
-                                <img className="r" src={r}></img>
+                                <img className="r" alt="r logo" src={r}></img>
                                 <p className="skill-name">R</p>
                             </div>
                             <p className="skill-desc">
@@ -192,7 +207,7 @@ const Information = forwardRef((props, ref) => {
                         <hr></hr>
                         <div className='skill-block'>
                             <div>
-                                <img className="sql" src={sql}></img>
+                                <img className="sql" alt="sql logo" src={sql}></img>
                                 <p className="skill-name">SQL</p>
                             </div>
                             <p className="skill-desc">
@@ -202,7 +217,7 @@ const Information = forwardRef((props, ref) => {
                         <hr></hr>
                         <div className='skill-block'>
                             <div>
-                                <img className="java" src={java}></img>
+                                <img className="java" alt="java logo" src={java}></img>
                                 <p className="skill-name">Java</p>
                             </div>
                             <p className="skill-desc">

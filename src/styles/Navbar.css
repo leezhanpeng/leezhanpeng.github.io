@@ -7,6 +7,16 @@ body {
     box-sizing: border-box;
 }
 
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 .navbar .logo .nav-txt {
     color: rgb(180, 180, 180);
     float: left;
@@ -77,6 +87,11 @@ body {
     padding-bottom: 18.9px;
     padding-left: 30px;
     filter: invert(100%);
+}
+
+.icon:hover {
+    filter: invert(60%);
+    transition: 0.4s;
 }
 
 @media screen and (max-width: 600px) {

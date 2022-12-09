@@ -54,7 +54,6 @@ br {
     display: flex;
     justify-content: center;
     background-color: #232323;
-    height: 500vh;
     margin-top: -120px;
     box-shadow: 0px 0px 10px black;
 }
@@ -74,6 +73,7 @@ br {
     text-decoration: underline solid;
     font-size: 40px;
     font-weight: 900;
+    padding-bottom: 30px;
 }
 
 .intro-para {
@@ -115,6 +115,7 @@ br {
     text-decoration: underline solid;
     font-size: 40px;
     font-weight: 900;
+    padding-bottom: 30px;
 }
 
 .exp-block {
@@ -142,13 +143,17 @@ br {
     padding-right: 30px;
 }
 
-.github-icon {
+.redirect-icon {
     width: 50px;
     height: 50px;
     padding-top: 20px;
     padding-right: 30px;
     filter: invert(100%);
+}
 
+.redirect-icon:hover {
+    filter: invert(60%);
+    transition: 0.4s;
 }
 
 .projects {
@@ -233,10 +238,31 @@ br {
 }
 
 .techstack-2 .react {
-    width: 60px;
+    width: 70px;
+}
+
+.techstack-2 .nodejs {
+    width: 80px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+.techstack-2 .mongodb {
+    width: 65px;
+    padding-left: 15px;
+}
+
+.techstack-2 .unity {
+    width: 130px;
 }
 
 .creditcardgif {
+    width: 300px;
+    border-radius: 25px;
+    margin-right: 30px;
+}
+
+.playbay-logo {
     width: 300px;
     border-radius: 25px;
     margin-right: 30px;
@@ -249,6 +275,7 @@ br {
     align-items: center;
     top: 40px;
     color: rgb(240, 240, 240);
+    padding-bottom: 100px;
 }
 
 .skills-title {
@@ -298,6 +325,10 @@ br {
     padding-left: 47px;
 }
 
+.gap {
+    padding-bottom: 100px;
+}
+
 @media screen and (max-width: 1000px) {
     .intro-para {
         max-width: 80%;
@@ -332,8 +363,14 @@ br {
         margin-bottom: 5px;
     }
 
-    .github-icon {
-        padding-right: 0px;
+    .playbay-logo {
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+
+    .redirect-icon {
+        padding-right: 10px;
+        padding-left: 10px;
         padding-bottom: 20px;
     }
 
@@ -447,6 +484,57 @@ br {
     }
 }
 
+@media screen and (max-width: 500px) {
+    .techstack-1 .python {
+        width: 66px;
+    }
+    
+    .techstack-1 .pandas {
+        width: 42px;
+        border-radius: 10px;
+        padding-bottom: 5px;
+    }
+    
+    .techstack-1 .numpy {
+        width: 42px;
+        border-radius: 10px;
+        padding-left: 20px;
+    }
+    
+    .techstack-1 .keras {
+        width: 54px;
+        border-radius: 2px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    
+    .techstack-1 .scikitlearn {
+        width: 54px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    
+    .techstack-2 .react {
+        width: 56px;
+    }
+    
+    .techstack-2 .nodejs {
+        width: 64px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+    }
+    
+    .techstack-2 .mongodb {
+        width: 52px;
+        padding-left: 15px;
+    }
+    
+    .techstack-2 .unity {
+        width: 104px;
+    }
+    
+}
+
 @media screen and (max-width: 450px) {
     .stb {
         width: 150px;
@@ -459,7 +547,12 @@ br {
         width: 200px;
     }
 
-    .github-icon {
+    .playbay-logo {
+        width: 200px;
+
+    }
+
+    .redirect-icon {
         width: 40px;
         height: 40px;
     }

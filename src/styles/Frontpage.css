@@ -85,6 +85,7 @@ p {
     animation: appear 1s forwards;
     animation-delay: 4s;
     padding-right: 50px;
+    padding-top: 80px;
 }
 
 .nus-block {
@@ -169,11 +170,12 @@ p {
 
     .logos {
         flex-direction: column;
+        padding-top: 0px;
     }
 
     .nus-block {
-        padding-top: 50px;
-        padding-left: 55px;
+        padding-top: 20px;
+        padding-left: 70px;
     }
     
     .yjc-block {
@@ -181,11 +183,12 @@ p {
         padding-left: 55px;
     }
     .nus {
-        width: 230px;
+        padding-left: 22px;
+        width: 200px;
     }
     
     .yjc {
-        width: 110px;
+        width: 90px;
     }
 
     .long-form {
@@ -213,7 +216,6 @@ p {
     }
 
     .nus-block {
-        padding-top: 50px;
         padding-right: 0px;
         padding-left: 45px;
     }
@@ -241,7 +243,6 @@ p {
     }
 
     .nus-block {
-        padding-top: 50px;
         padding-right: 0px;
         padding-left: 45px;
     }

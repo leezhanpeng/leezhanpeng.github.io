@@ -16,12 +16,17 @@ const Navbar = ({ resultRef }) => {
         resultRef.about.current.scrollIntoView({ behavior: "smooth" });
     };
 
-    const toExp= (e) => {
+    const toExp = (e) => {
         e.preventDefault();
         resultRef.experience.current.scrollIntoView({ behavior: "smooth" });
     };
 
-    const toSkills= (e) => {
+    const toProjects = (e) => {
+        e.preventDefault();
+        resultRef.projects.current.scrollIntoView({ behavior: "smooth" });
+    };
+
+    const toSkills = (e) => {
         e.preventDefault();
         resultRef.skills.current.scrollIntoView({ behavior: "smooth" });
     };
@@ -29,15 +34,15 @@ const Navbar = ({ resultRef }) => {
     return ( 
         <ul className="navbar">
             <div className="navigate">
-                <li className="logo"><a onClick={toHome} className="nav-txt">Lee ZP</a></li>
-                <a onClick={toAbout} className="nav-btn"><li className="nav-txt">About</li></a>
-                <a onClick={toExp} className="nav-btn"><li className="nav-txt">Experiences</li></a>
-                <a onClick={toSkills} className="nav-btn"><li className="nav-txt">Skills</li></a>
+                <li className="logo"><button onClick={toHome} className="nav-txt">Lee ZP</button></li>
+                <button onClick={toAbout} className="nav-btn"><li className="nav-txt">About</li></button>
+                <button onClick={toExp} className="nav-btn"><li className="nav-txt">Experiences</li></button>
+                <button onClick={toProjects} className="nav-btn"><li className="nav-txt">Projects</li></button>
             </div>
             <div className="icons">
-                <a href="https://www.linkedin.com/in/leezhanpeng"><img className="icon" src={linkedin}></img></a>
-                <a href="https://www.github.com/leezhanpeng"><img className="icon" src={github}></img></a>
-                <a href="https://www.instagram.com/zhanpengg_/"><img className="icon" src={instagram}></img></a>
+                <a href="https://www.linkedin.com/in/leezhanpeng"><img className="icon" alt="linkedin icon" src={linkedin}></img></a>
+                <a href="https://www.github.com/leezhanpeng"><img className="icon" alt="github icon" src={github}></img></a>
+                <a href="https://www.instagram.com/zhanpengg_/"><img className="icon" alt="instagram icon" src={instagram}></img></a>
             </div>
         </ul>
     );

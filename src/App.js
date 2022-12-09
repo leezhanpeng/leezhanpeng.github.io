@@ -4,6 +4,7 @@ import { useRef } from "react";
 import Navbar from './components/Navbar';
 import Frontpage from './components/Frontpage';
 import Information from './components/Information';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     home: useRef(null),
     about: useRef(null),
     experience: useRef(null),
+    projects: useRef(null),
     skills: useRef(null)
   };
   
@@ -23,6 +25,7 @@ function App() {
       <Navbar resultRef={resultRef} />
       <Frontpage ref={resultRef} />
       <Information ref={resultRef} />
+      <Footer />
     </div>
   );
 }
