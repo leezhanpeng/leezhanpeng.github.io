@@ -94,6 +94,12 @@ button {
     transition: 0.4s;
 }
 
+@media screen and (max-width: 750px) {
+    .skill {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .frontpage-content {
         padding: 20px;

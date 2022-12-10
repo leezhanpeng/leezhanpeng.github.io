@@ -38,6 +38,7 @@ const Navbar = ({ resultRef }) => {
                 <button onClick={toAbout} className="nav-btn"><li className="nav-txt">About</li></button>
                 <button onClick={toExp} className="nav-btn"><li className="nav-txt">Experiences</li></button>
                 <button onClick={toProjects} className="nav-btn"><li className="nav-txt">Projects</li></button>
+                <button onClick={toSkills} className="nav-btn skill"><li className="nav-txt">Skills</li></button>
             </div>
             <div className="icons">
                 <a href="https://www.linkedin.com/in/leezhanpeng"><img className="icon" alt="linkedin icon" src={linkedin}></img></a>
