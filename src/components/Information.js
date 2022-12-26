@@ -204,8 +204,8 @@ const Information = forwardRef((props, ref) => {
                                 Libraries: tidyverse, readxl
                             </p>
                         </div>
-                        <hr></hr>
-                        <div className='skill-block'>
+                        <hr className="sql-block"></hr>
+                        <div className='skill-block sql-block'>
                             <div>
                                 <img className="sql" alt="sql logo" src={sql}></img>
                                 <p className="skill-name">SQL</p>
