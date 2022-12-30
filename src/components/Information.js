@@ -76,7 +76,7 @@ const Information = forwardRef((props, ref) => {
                     </div>
                     <div className= "intro-para">
                         <p>
-                            I am currently a year 2 Data Science and Analytics undergraduate in the National University of Singapore &#40;NUS&#41;.
+                            I am currently a year 2 Data Science and Analytics undergraduate at the National University of Singapore &#40;NUS&#41;.
                             I am also fortunate enough to be taking up a second major in Computer Science to fuel my passion for programming and
                             enhance my ability as a data scientist/machine learning expert!
                         </p>
