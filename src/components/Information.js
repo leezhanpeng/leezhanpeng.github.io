@@ -76,7 +76,7 @@ const Information = forwardRef((props, ref) => {
                     </div>
                     <div className= "intro-para">
                         <p>
-                            I am currently a year 2 Data Science and Analytics undergraduate at the National University of Singapore &#40;NUS&#41;.
+                            I am currently a year 3 Data Science and Analytics undergraduate at the National University of Singapore &#40;NUS&#41;.
                             I am also fortunate enough to be taking up a second major in Computer Science to fuel my passion for programming and
                             enhance my ability as a data scientist/machine learning expert!
                         </p>
@@ -221,11 +221,11 @@ const Information = forwardRef((props, ref) => {
                                 <p className="skill-name">Java</p>
                             </div>
                             <p className="skill-desc">
-                                Java is used for the module CS2040 Data Structures & Algorithms.
+                                Java is used for the module CS2040 Data Structures & Algorithms, as well as CS2030 Programming Methodology II.
                                 I also do programming puzzles with Java to make sure I stay comfortable with the programming language.
                                 <br />
-                                Moving forward, there are plans for me to take up CS2030 Programming Methodology II, as well as
-                                CS2103 Software Engineering which requires a firm understanding of the language.
+                                Moving forward, there are plans for me to take up CS2103 Software Engineering which requires a firm 
+                                understanding of the language.
                             </p>
                         </div>
                     </div>
