@@ -332,6 +332,13 @@ br {
         align-items: center;
     }
 
+    .mindef {
+        width: 280px;
+        height: 187px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
     .stb {
         width: 280px;
         height: 200px;
@@ -420,6 +427,11 @@ br {
         max-width: 80%;
     }
 
+    .courses-para {
+        font-size: 15px;
+        max-width: 80%;
+    }
+
     .courses-title {
         font-size: 35px;
     }
@@ -442,6 +454,13 @@ br {
 }
 
 @media screen and (max-width: 450px) {
+    .mindef {
+        width: 150px;
+        height: 100px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
     .stb {
         width: 150px;
         height: 107px;
@@ -470,6 +489,10 @@ br {
     .courses-list {
         font-size: 13px;
     }
+
+    .techstack-2 {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -496,16 +519,17 @@ br {
         max-width: 80%;
     }
 
+    .courses-para {
+        font-size: 15px;
+        max-width: 80%;
+    }
+
     .courses-title {
         font-size: 30px;
     }
 
     .semester-title {
         font-size: 20px;
-    }
-
-    .courses-list {
-        font-size: 11px;
     }
 }
 

@@ -170,10 +170,14 @@ const Information = forwardRef((props, ref) => {
                             </div>
                         </div>
                         <div className="techstack techstack-2">
-                            <div className="techstack-tag"><div>React</div></div>
-                            <div className="techstack-tag"><div>Node.js</div></div>
-                            <div className="techstack-tag"><div>MongoDB</div></div>
-                            <div className="techstack-tag"><div>Unity</div></div>
+                            <div className="techstack">
+                                <div className="techstack-tag"><div>React</div></div>
+                                <div className="techstack-tag"><div>Node.js</div></div>
+                            </div>
+                            <div className="techstack">
+                                <div className="techstack-tag"><div>MongoDB</div></div>
+                                <div className="techstack-tag"><div>Unity</div></div>
+                            </div>
                         </div>
                     </div>
                 </div>
