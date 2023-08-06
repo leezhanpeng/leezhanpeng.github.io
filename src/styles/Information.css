@@ -121,6 +121,8 @@ br {
 
 .exp-block {
     display: flex;
+    padding: 30px;
+    align-items: center;
 }
 
 .exp-texts {
@@ -131,6 +133,7 @@ br {
     font-size: 30px;
     font-weight: 600;
     color: rgb(247, 247, 247);
+    text-align: left;
 }
 
 .exp-desc {
@@ -139,8 +142,16 @@ br {
     text-align: left;
 }
 
+.mindef {
+    width: 250px;
+    margin-right: 30px;
+    height: 166.5px;
+    border-radius: 10px;
+}
+
 .stb {
     width: 250px;
+    height: 200px;
     padding-right: 30px;
 }
 
@@ -204,63 +215,26 @@ br {
 }
 
 .techstack {
-    padding: 20px 0px;
+    display: flex;
     justify-content: center;
-    
+    padding-bottom: 15px;
 }
 
-.techstack-1 .python {
-    width: 110px;
+.techstack-tag {
+    background-color: #3D3D3D;
+    border-radius: 50px;
+    width: max-content;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin: 0px 7px;
 }
 
-.techstack-1 .pandas {
-    width: 70px;
-    border-radius: 10px;
-    padding-bottom: 5px;
-}
-
-.techstack-1 .numpy {
-    width: 70px;
-    border-radius: 10px;
-    padding-left: 20px;
-}
-
-.techstack-1 .keras {
-    width: 90px;
-    border-radius: 2px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
-
-.techstack-1 .scikitlearn {
-    width: 90px;
-    margin-bottom: 12px;
-    margin-left: 15px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-.techstack-2 .react {
-    width: 70px;
-}
-
-.techstack-2 .nodejs {
-    width: 80px;
-    margin-bottom: 5px;
-    margin-left: 15px;
-    border-radius: 5px;
-}
-
-.techstack-2 .mongodb {
-    width: 65px;
-    margin-left: 15px;
-    border-radius: 5px;
-}
-
-.techstack-2 .unity {
-    width: 105px;
-    border-radius: 5px;
-    margin-left: 17px;
+.techstack-tag div {
+    font-size: 16px;
+    color: white;
+    padding: 0px 18px;
+    padding-bottom: 4px;
 }
 
 .creditcardgif {
@@ -275,7 +249,7 @@ br {
     margin-right: 30px;
 }
 
-.skills {
+.courses {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -287,7 +261,7 @@ br {
     padding-bottom: 100px; 
 }
 
-.skills-title {
+.courses-title {
     padding-top: 50px;
     font-family: 'Quicksand', 'Poppins', sans-serif;
     text-decoration: underline solid;
@@ -295,61 +269,59 @@ br {
     font-weight: 900;
 }
 
-.skill-block {
+.courses-para {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    max-width: 50%;
+    text-align: left
+}
+
+.courses-desc {
+    padding-bottom: 30px;
+}
+
+.courses-block {
     display: flex;
-    align-items:center;
+    flex-direction: column;
+    justify-content: center;
     padding: 20px;
 }
 
-.skill-name {
+.semester-title {
     font-size: 30px;
+    text-align: center;
 }
 
-.skill-desc {
-    font-size: 22px;
-    vertical-align: middle;
-    max-width: 600px;
+.courses-list-div {
+    text-align: center;
+    font-size: 18px;
+}
+
+.courses-list {
+    display: inline-block;
     text-align: left;
-}
-
-.python {
-    width: 250px;
-}
-
-.r {
-    width: 130px;
-    padding-right: 60px;
-    padding-left: 60px;
-}
-
-.sql {
-    width: 220px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.java {
-    width: 150px;
-    padding-right: 47px;
-    padding-left: 47px;
-}
-
-.sql-block {
-    display: none;
 }
 
 @media screen and (max-width: 1000px) {
     .intro-para {
         max-width: 80%;
     }
+
+    .mindef {
+        width: 180px;
+        height: 120px;
+        margin-right: 30px;
+    }
+
     .stb {
         width: 180px;
         height: 128px;
         padding-right: 30px;
     }
 
-    .skill-desc {
-        max-width: 500px;
+    .courses-para {
+        max-width: 80%;
     }
 }
 
@@ -383,11 +355,6 @@ br {
         padding-bottom: 20px;
     }
 
-    .skill-desc {
-        max-width: 400px;
-        font-size: 20px;
-    }
-
     .project-block {
         flex-direction: column;
         justify-content: center;
@@ -417,41 +384,10 @@ br {
         max-width: 80%;
         padding-left: 10%;
     }
-
-    .skill-desc {
-        max-width: 400px;
-        font-size: 20px;
+    .courses-list {
+        font-size: 17px;
     }
 
-    .skill-name {
-        padding-bottom: 30px;
-    }
-
-    .skill-block {
-        flex-direction: column;
-    }
-
-    .python {
-        width: 200px;
-    }
-    
-    .r {
-        width: 80px;
-        padding-right: 60px;
-        padding-left: 60px;
-    }
-    
-    .sql {
-        width: 180px;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    
-    .java {
-        width: 100px;
-        padding-right: 47px;
-        padding-left: 47px;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -484,12 +420,8 @@ br {
         max-width: 80%;
     }
 
-    .skills-title {
+    .courses-title {
         font-size: 35px;
-    }
-
-    .skill-desc {
-        font-size: 18px;
     }
 
     .exp-desc {
@@ -499,57 +431,14 @@ br {
     .project-desc {
         font-size: 18px;
     }
-}
 
-@media screen and (max-width: 500px) {
-    .techstack-1 .python {
-        width: 66px;
+    .techstack-1 {
+        flex-direction: column;
     }
-    
-    .techstack-1 .pandas {
-        width: 42px;
-        border-radius: 10px;
-        padding-bottom: 5px;
+
+    .courses-list {
+        font-size: 15px;
     }
-    
-    .techstack-1 .numpy {
-        width: 42px;
-        border-radius: 10px;
-        padding-left: 20px;
-    }
-    
-    .techstack-1 .keras {
-        width: 54px;
-        border-radius: 2px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-    }
-    
-    .techstack-1 .scikitlearn {
-        width: 54px;
-        margin-bottom: 8px;
-        margin-left: 15px;
-    }
-    
-    .techstack-2 .react {
-        width: 56px;
-    }
-    
-    .techstack-2 .nodejs {
-        width: 64px;
-        margin-bottom: 5px;
-        margin-left: 15px;
-    }
-    
-    .techstack-2 .mongodb {
-        width: 52px;
-        margin-left: 15px;
-    }
-    
-    .techstack-2 .unity {
-        width: 104px;
-    }
-    
 }
 
 @media screen and (max-width: 450px) {
@@ -574,6 +463,13 @@ br {
         height: 40px;
     }
 
+    .semester-title {
+        font-size: 25px;
+    }
+
+    .courses-list {
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -600,8 +496,16 @@ br {
         max-width: 80%;
     }
 
-    .skills-title {
+    .courses-title {
         font-size: 30px;
+    }
+
+    .semester-title {
+        font-size: 20px;
+    }
+
+    .courses-list {
+        font-size: 11px;
     }
 }
 

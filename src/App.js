@@ -16,7 +16,7 @@ function App() {
     about: useRef(null),
     experience: useRef(null),
     projects: useRef(null),
-    skills: useRef(null)
+    courses: useRef(null)
   };
   
 

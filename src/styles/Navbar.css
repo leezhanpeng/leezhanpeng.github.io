@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-body {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    box-sizing: border-box;
-}
-
 button {
     background: none;
 	color: inherit;
@@ -95,87 +88,13 @@ button {
 }
 
 @media screen and (max-width: 750px) {
-    .skill {
+    .courses-nav {
         display: none;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .frontpage-content {
-        padding: 20px;
-        justify-content: center;
-    }
-
-    .opening-text p {
-        font-size: 23px;
-        line-height: 28px;
-    }
-
-    .look-bar {
-        bottom: 36px;
-        height: 20px;
-    }
-
-    .photo {
-        margin-right: 20px;
-        width: 150px;
-        height: 150px;
-    }
-
-    .intro-title {
-        font-size: 35px;
-    }
-    
-    .intro-para {
-        font-size: 15px;
-    }
-
-    .skills-title {
-        font-size: 35px;
-    }
-
     .nav-btn {
         display: none;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .photo {
-        margin-right: 20px;
-        width: 130px;
-        height: 130px;
-    }
-
-    .intro-title {
-        font-size: 30px;
-    }
-    
-    .intro-para {
-        font-size: 15px;
-    }
-
-    .skills-title {
-        font-size: 30px;
-    }
-
-    .icons {
-        padding-right: 25px;
-    }
-}
-
-@media screen and (max-width: 370px) {
-    .photo {
-        margin-right: 20px;
-        width: 110px;
-        height: 110px;
-    }
-
-    .opening-text p {
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    .look-bar {
-        bottom: 30px;
     }
 }
