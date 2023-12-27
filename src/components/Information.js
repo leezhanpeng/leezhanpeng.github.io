@@ -9,6 +9,7 @@ import playbtn from '../images/playbutton.png';
 import mindef from '../images/mindef-logo.jpg';
 import stb from '../images/stb-logo.png';
 
+import utilitybillgif from '../images/utilitybill.gif';
 import creditcardgif from '../images/creditcard.gif';
 import playbaylogo from '../images/playbay.gif';
 
@@ -64,7 +65,8 @@ const Information = forwardRef((props, ref) => {
                     </div>
                     <div className= "intro-para">
                         <p>
-                            I am currently a year 3 Data Science and Analytics undergraduate at the National University of Singapore &#40;NUS&#41;.
+                            I am a year 3 undergraduate at the National University of Singapore &#40;NUS&#41;, majoring in Data Science and Analytics
+                            with a specialisation in Statistical Methodology.
                             I am also fortunate enough to be taking up a second major in Computer Science to fuel my passion for programming and
                             enhance my ability as a data scientist/machine learning expert!
                         </p>
@@ -112,6 +114,39 @@ const Information = forwardRef((props, ref) => {
                         <br />
                     </div>
                     <div className="projects-para">
+                    <div className="project-block">
+                            <div className="image-blocks">
+                                <img className="utilitybillgif" alt="utility bill gif" src={utilitybillgif}></img>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/19y5rFG9kbaYt2Wu-YRXDDhJl8CNCGpMA/view?usp=sharing"><img className="redirect-icon" alt="document icon" src={doc}></img></a>
+                                    <a href="https://drive.google.com/file/d/1S1c44WtmlSBuIpScefxafWXZOH0E_J5a/view?usp=sharing"><img className="redirect-icon" alt="playbtn icon" src={playbtn}></img></a>
+                                </div>
+                            </div>
+                            <div className="project-texts">
+                                <p className="project-name">Utility Fraud Detection</p>
+                                <p className="project-name" style={{color: "rgb(101, 255, 139)"}}>[Machine Learning]</p>
+                                <br />
+                                <p className="project-desc">
+                                    An ML project implemented for the course
+                                    CS3244 Machine Learning.
+                                    <br />
+                                    The objective of the project was to identify fraudulent clients that are manipulating utility meters in Tunisia. 
+                                    My main contributions include feature engineering, mitigating dataset imbalance, fine-tuning of models' hyperparameters,
+                                    and evaluation process of model performances.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="techstack techstack-1">
+                            <div className="techstack">
+                                <div className="techstack-tag"><div>Python</div></div>
+                                <div className="techstack-tag"><div>pandas</div></div>
+                                <div className="techstack-tag"><div>NumPy</div></div>
+                                <div className="techstack-tag"><div>imbalanced-learn</div></div>
+                                <div className="techstack-tag"><div>scikit-learn</div></div>
+                                <div className="techstack-tag"><div>matplotlib</div></div>
+                            </div>
+                        </div>
+                        <hr></hr>
                         <div className="project-block">
                             <div className="image-blocks">
                                 <img className="creditcardgif" alt="credit card gif" src={creditcardgif}></img>
@@ -121,11 +156,11 @@ const Information = forwardRef((props, ref) => {
                                 </div>
                             </div>
                             <div className="project-texts">
-                                <p className="project-name">Credit Card Application Enhancement</p>
+                                <p className="project-name">Credit Card Approval Automation</p>
                                 <p className="project-name" style={{color: "rgb(101, 255, 139)"}}>[Machine Learning]</p>
                                 <br />
                                 <p className="project-desc">
-                                    An ML project developed for the module
+                                    An ML project developed for the course
                                     IT1244 Artificial Intelligence: Technology and Impact.
                                     <br />
                                     The goal was to automate the approval of credit card applications by identifying potential
@@ -139,8 +174,6 @@ const Information = forwardRef((props, ref) => {
                                 <div className="techstack-tag"><div>Python</div></div>
                                 <div className="techstack-tag"><div>pandas</div></div>
                                 <div className="techstack-tag"><div>NumPy</div></div>
-                            </div>
-                            <div className="techstack">
                                 <div className="techstack-tag"><div>Keras</div></div>
                                 <div className="techstack-tag"><div>scikit-learn</div></div>
                             </div>
@@ -160,7 +193,7 @@ const Information = forwardRef((props, ref) => {
                                 <p className="project-name" style={{color: "rgb(101, 255, 139)"}}>[Software Development]</p>
                                 <br />
                                 <p className="project-desc">
-                                    A software engineering project done during the summer of 2022 as part of the module
+                                    A software engineering project done during the summer of 2022 as part of the course
                                     CP2106 Independent Software Development Project.
                                     <br />
                                     The project is an online multiplayer browser game website that involves fullstack development.
@@ -173,8 +206,6 @@ const Information = forwardRef((props, ref) => {
                             <div className="techstack">
                                 <div className="techstack-tag"><div>React</div></div>
                                 <div className="techstack-tag"><div>Node.js</div></div>
-                            </div>
-                            <div className="techstack">
                                 <div className="techstack-tag"><div>MongoDB</div></div>
                                 <div className="techstack-tag"><div>Unity</div></div>
                             </div>

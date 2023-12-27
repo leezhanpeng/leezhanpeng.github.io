@@ -236,6 +236,13 @@ br {
     padding-bottom: 4px;
 }
 
+.utilitybillgif {
+    height: 230px;
+    width: 300px;
+    border-radius: 25px;
+    margin-right: 30px;
+}
+
 .creditcardgif {
     width: 300px;
     border-radius: 25px;
