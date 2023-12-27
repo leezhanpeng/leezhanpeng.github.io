@@ -272,33 +272,34 @@ const Information = forwardRef((props, ref) => {
                         <hr></hr>
                         <div className="courses-block">
                             <b className="semester-title">
-                                Year 3 Semester 1 <div style={{color: "rgb(80, 200, 120)"}}>[In Progress]</div>
+                                Year 3 Semester 1
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
-                                    <li>CFG3001 Career Advancement</li>
-                                    <li>CS2102 Database Systems</li>
-                                    <li>CS2103 Software Engineering</li>
-                                    <li>CS3243 Introduction to Artificial Intelligence</li>
-                                    <li>CS3244 Machine Learning</li>
-                                    <li>DSA3102 Essential Data Analytics Tools: Convex Optimisation</li>
-                                    <li>ST3131 Regression Analysis</li>
-                                    <li>ST3248 Statistical Learning I</li>
+                                    <li>CFG3001 Career Advancement <b>CS</b></li>
+                                    <li>CS2102 Database Systems <b>A-</b></li>
+                                    <li>CS2103 Software Engineering <b>A-</b></li>
+                                    <li>CS3243 Introduction to Artificial Intelligence <b>A-</b></li>
+                                    <li>CS3244 Machine Learning <b>A-</b></li>
+                                    <li>DSA3102 Essential Data Analytics Tools: Convex Optimisation <b>A</b></li>
+                                    <li>ST3131 Regression Analysis <b>B</b></li>
+                                    <li>ST3248 Statistical Learning I <b>B+</b></li>
                                 </ul>
                             </div>
                         </div>
                         <hr></hr>
                         <div className="courses-block">
                             <b className="semester-title">
-                                Year 3 Semester 2 <div style={{color: "rgb(255, 255, 143)"}}>[To be Confirmed]</div>
+                                Year 3 Semester 2 <div style={{color: "rgb(80, 200, 120)"}}>[In Progress]</div>
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
                                     <li>CS4243 Computer Vision and Pattern Recognition</li>
-                                    <li>CS4248 Natural Language Processing</li>
+                                    <li>DAO1704X Decision Analytics using Spreadsheets</li>
                                     <li>DSA3101 Data Science in Practice</li>
-                                    <li>DSA4212 Optimisation for Large-Scale Data-Driven Inference</li>
+                                    <li>DSA4213 Natural Language Processing for Data Science</li>
                                     <li>HS2914 How to Get Humans and Machines to Talk to Each Other</li>
+                                    <li>ST3247 Simulation</li>
                                     <li>ST4248 Statistical Learning II</li>
                                 </ul>
                             </div>
@@ -326,7 +327,6 @@ const Information = forwardRef((props, ref) => {
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
-                                    <li>ST3247 Simulation</li>
                                     <li>HS29XX - </li>
                                 </ul>
                             </div>
