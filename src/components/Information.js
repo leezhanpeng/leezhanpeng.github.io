@@ -141,8 +141,12 @@ const Information = forwardRef((props, ref) => {
                                 <div className="techstack-tag"><div>Python</div></div>
                                 <div className="techstack-tag"><div>pandas</div></div>
                                 <div className="techstack-tag"><div>NumPy</div></div>
+                            </div>
+                            <div className="techstack">
                                 <div className="techstack-tag"><div>imbalanced-learn</div></div>
                                 <div className="techstack-tag"><div>scikit-learn</div></div>
+                            </div>
+                            <div className="techstack">
                                 <div className="techstack-tag"><div>matplotlib</div></div>
                             </div>
                         </div>
@@ -174,6 +178,8 @@ const Information = forwardRef((props, ref) => {
                                 <div className="techstack-tag"><div>Python</div></div>
                                 <div className="techstack-tag"><div>pandas</div></div>
                                 <div className="techstack-tag"><div>NumPy</div></div>
+                            </div>
+                            <div className="techstack">
                                 <div className="techstack-tag"><div>Keras</div></div>
                                 <div className="techstack-tag"><div>scikit-learn</div></div>
                             </div>
@@ -206,6 +212,8 @@ const Information = forwardRef((props, ref) => {
                             <div className="techstack">
                                 <div className="techstack-tag"><div>React</div></div>
                                 <div className="techstack-tag"><div>Node.js</div></div>
+                            </div>
+                            <div className="techstack">
                                 <div className="techstack-tag"><div>MongoDB</div></div>
                                 <div className="techstack-tag"><div>Unity</div></div>
                             </div>
