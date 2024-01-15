@@ -333,6 +333,7 @@ const Information = forwardRef((props, ref) => {
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
+                                    <li>CLC1101 Engaging and Building Communities</li>
                                     <li>CS4243 Computer Vision and Pattern Recognition</li>
                                     <li>DAO1704X Decision Analytics using Spreadsheets</li>
                                     <li>DSA3101 Data Science in Practice</li>
@@ -350,7 +351,6 @@ const Information = forwardRef((props, ref) => {
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
-                                    <li>CLC1101 Engaging and Building Communities</li>
                                     <li>CS4225 Big Data Systems for Data Science</li>
                                     <li>CS4246 AI Planning and Decision Making</li>
                                     <li>DSA426X Sense-Making Case Analysis: - </li>
