@@ -9,6 +9,9 @@ import playbtn from '../images/playbutton.png';
 import mindef from '../images/mindef-logo.jpg';
 import stb from '../images/stb-logo.png';
 
+import waddlewafflesintro from '../images/waddlewaffles.gif';
+import medisyncui from '../images/medisyncui.png';
+import robertapp from '../images/robert.png';
 import utilitybillgif from '../images/utilitybill.gif';
 import creditcardgif from '../images/creditcard.gif';
 import playbaylogo from '../images/playbay.gif';
@@ -114,17 +117,145 @@ const Information = forwardRef((props, ref) => {
                         <br />
                     </div>
                     <div className="projects-para">
-                    <div className="project-block">
+                        <div className="project-block">
+                            <div className="image-blocks">
+                                <img className="waddlewafflesintro" alt="waddle waffles intro" src={waddlewafflesintro}></img>
+                                <div>
+                                    <a href="https://github.com/AY2324S2-DSA3101-WaddleWaffles/Banking-Sentiment-Analysis"><img className="redirect-icon" alt="github icon" src={github}></img></a>
+                                    <a href="https://drive.google.com/file/d/1hGMBpKIKP1wSXKwrT1CE1gMuME0qlIZN/view"><img className="redirect-icon" alt="document icon" src={doc}></img></a>
+                                    <a href="https://drive.google.com/file/d/1YK8oLCGTkMyjDOb5-7S4vYogRJZNr-A-/view"><img className="redirect-icon" alt="playbtn icon" src={playbtn}></img></a>
+                                </div>
+                            </div>
+                            <div className="project-texts">
+                                <p className="project-name">GXS Bank App Reviews Sentiment Analysis</p>
+                                <br />
+                                <p className="project-desc">
+                                    A full-stack data science project implemented for the course
+                                    DSA3101 Data Science in Practice.
+                                    <br />
+                                    The project aimed to analyse sentiments expressed in user reviews of the GXS Bank mobile application.
+                                    My primary role encompassed the construction of the entire backend architecture and the integration of
+                                    various models involving XAI and Text Generation.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="techstack techstack-1">
+                            <div className="techstack">
+                                <div className="techstack-tag"><div>React</div></div>
+                                <div className="techstack-tag"><div>Mantine</div></div>
+                            </div>
+                            <div className="techstack">
+                                <div className="techstack-tag"><div>Flask</div></div>
+                                <div className="techstack-tag"><div>pandas</div></div>
+                                <div className="techstack-tag"><div>HuggingFace</div></div>
+                            </div>
+                            <div className="techstack">
+                                <div className="techstack-tag"><div>H2OGPTE</div></div>
+                                <div className="techstack-tag"><div>MongoDB</div></div>
+                            </div>
+                        </div>
+                        <hr></hr>
+                        <div className="project-block">
+                            <div className="image-blocks">
+                                <img className="intelliexampic" alt="intelli-exam homepage" src={"https://gcdnb.pbrd.co/images/t8pXukC84AQV.png?o=1"}></img>
+                                <div>
+                                    <a href="https://github.com/AY2324S2-DSA4213-TeamBloopers/Intelli-Exam"><img className="redirect-icon" alt="github icon" src={github}></img></a>
+                                    <a href="https://drive.google.com/file/d/1pNp2sV7RM6RwVngnLx_y-vU85O4YulEW/view"><img className="redirect-icon" alt="playbtn icon" src={playbtn}></img></a>
+                                </div>
+                            </div>
+                            <div className="project-texts">
+                                <p className="project-name">Intelli-Exam: Exam Questions & Answers Generation</p>
+                                <br />
+                                <p className="project-desc">
+                                    A RAG-based NLP project implemented for the course
+                                    DSA4213 Natural Language Processing for Data Science.
+                                    <br />
+                                    The project is focused on utilising the Retrieval-Augmented Generation (RAG) framework to generate
+                                    exam questions and corresponding answers. My responsibility was to develop the RAG pipeline by
+                                    leveraging on MongoDB Atlas vector search to retrieve relevant content used in the LLM.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="techstack techstack-1">
+                            <div className="techstack">
+                                <div className="techstack-tag"><div>React</div></div>
+                                <div className="techstack-tag"><div>Flask</div></div>
+                            </div>
+                            <div className="techstack">
+                                <div className="techstack-tag"><div>H2OGPTE</div></div>
+                                <div className="techstack-tag"><div>MongoDB</div></div>
+                            </div>
+                        </div>
+                        <hr></hr>
+                        <div className="project-block">
+                            <div className="image-blocks">
+                                <img className="medisyncui" alt="medisync ui" src={medisyncui}></img>
+                                <div>
+                                    <a href="https://github.com/AY2324S1-CS2103-T16-2/tp"><img className="redirect-icon" alt="github icon" src={github}></img></a>
+                                    <a href="https://ay2324s1-cs2103-t16-2.github.io/tp/"><img className="redirect-icon" alt="document icon" src={doc}></img></a>
+                                    <a href="https://drive.google.com/file/d/1PXsrC4lDqWES9I7XNDsKj7w8doCchBR0/view?usp=sharing"><img className="redirect-icon" alt="playbtn icon" src={playbtn}></img></a>
+                                </div>
+                            </div>
+                            <div className="project-texts">
+                                <p className="project-name">MediSync: Hospital Staff & Patient Manager</p>
+                                <br />
+                                <p className="project-desc">
+                                    An application developed as part of the team project component for the course
+                                    CS2103 Software Engineering.
+                                    <br />
+                                    This brownfield project is a desktop app specifically used for head nurses to manage staff and patients.
+                                    While it has a GUI, most of the user interactions happen using a Command Line Interface. My task was to
+                                    develop various features and UI of the application.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="techstack techstack-2">
+                            <div className="techstack">
+                                <div className="techstack-tag"><div>Java</div></div>
+                                <div className="techstack-tag"><div>JavaFX</div></div>
+                                <div className="techstack-tag"><div>JUnit</div></div>
+                            </div>
+                        </div>
+                        <hr></hr>
+                        <div className="project-block">
+                            <div className="image-blocks">
+                                <img className="robertapp" alt="robert app" src={robertapp}></img>
+                                <div>
+                                    <a href="https://github.com/leezhanpeng/ip"><img className="redirect-icon" alt="github icon" src={github}></img></a>
+                                    <a href="https://leezhanpeng.github.io/ip/"><img className="redirect-icon" alt="document icon" src={doc}></img></a>
+                                </div>
+                            </div>
+                            <div className="project-texts">
+                                <p className="project-name">Robert: Task Manager</p>
+                                <br />
+                                <p className="project-desc">
+                                    An application developed as part of the individual project component for the course
+                                    CS2103 Software Engineering.
+                                    <br />
+                                    This greenfield project showcases a command-line application with a simple user interface aimed
+                                    at tracking tasks and events. It was my first taste of Java development and using JavaFX for UI
+                                    development.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="techstack techstack-2">
+                            <div className="techstack">
+                                <div className="techstack-tag"><div>Java</div></div>
+                                <div className="techstack-tag"><div>JavaFX</div></div>
+                                <div className="techstack-tag"><div>JUnit</div></div>
+                            </div>
+                        </div>
+                        <hr></hr>
+                        <div className="project-block">
                             <div className="image-blocks">
                                 <img className="utilitybillgif" alt="utility bill gif" src={utilitybillgif}></img>
                                 <div>
                                     <a href="https://drive.google.com/file/d/19y5rFG9kbaYt2Wu-YRXDDhJl8CNCGpMA/view?usp=sharing"><img className="redirect-icon" alt="document icon" src={doc}></img></a>
-                                    <a href="https://drive.google.com/file/d/1S1c44WtmlSBuIpScefxafWXZOH0E_J5a/view?usp=sharing"><img className="redirect-icon" alt="playbtn icon" src={playbtn}></img></a>
+                                    <a href="https://drive.google.com/file/d/1S1c44WtmlSBuIpScefxafWXsOH0E_J5a/view?usp=sharing"><img className="redirect-icon" alt="playbtn icon" src={playbtn}></img></a>
                                 </div>
                             </div>
                             <div className="project-texts">
                                 <p className="project-name">Utility Fraud Detection</p>
-                                <p className="project-name" style={{color: "rgb(101, 255, 139)"}}>[Machine Learning]</p>
                                 <br />
                                 <p className="project-desc">
                                     An ML project implemented for the course
@@ -161,7 +292,6 @@ const Information = forwardRef((props, ref) => {
                             </div>
                             <div className="project-texts">
                                 <p className="project-name">Credit Card Approval Automation</p>
-                                <p className="project-name" style={{color: "rgb(101, 255, 139)"}}>[Machine Learning]</p>
                                 <br />
                                 <p className="project-desc">
                                     An ML project developed for the course
@@ -196,7 +326,6 @@ const Information = forwardRef((props, ref) => {
                             </div>
                             <div className="project-texts">
                                 <p className="project-name">Online Web Browser Site (PlayBay)</p>
-                                <p className="project-name" style={{color: "rgb(101, 255, 139)"}}>[Software Development]</p>
                                 <br />
                                 <p className="project-desc">
                                     A software engineering project done during the summer of 2022 as part of the course
@@ -329,7 +458,7 @@ const Information = forwardRef((props, ref) => {
                         <hr></hr>
                         <div className="courses-block">
                             <b className="semester-title">
-                                Year 3 Semester 2 <div style={{color: "rgb(80, 200, 120)"}}>[In Progress]</div>
+                                Year 3 Semester 2 <div style={{color: "rgb(80, 200, 120)"}}>[Awaiting Results]</div>
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
@@ -351,11 +480,7 @@ const Information = forwardRef((props, ref) => {
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
-                                    <li>CS4225 Big Data Systems for Data Science</li>
-                                    <li>CS4246 AI Planning and Decision Making</li>
                                     <li>DSA426X Sense-Making Case Analysis: - </li>
-                                    <li>ST4250 Multivariate Statistical Analysis</li>
-                                    <li>ST4253 Applied Time Series Analysis</li>
                                 </ul>
                             </div>
                         </div>
@@ -366,6 +491,8 @@ const Information = forwardRef((props, ref) => {
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
+                                    <li>CS4225 Big Data Systems for Data Science</li>
+                                    <li>CS4246 AI Planning and Decision Making</li>
                                     <li>HS29XX - </li>
                                 </ul>
                             </div>

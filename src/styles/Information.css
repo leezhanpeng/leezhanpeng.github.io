@@ -236,8 +236,32 @@ br {
     padding-bottom: 4px;
 }
 
+.waddlewafflesintro {
+    width: 300px;
+    border-radius: 25px;
+    margin-right: 30px;
+}
+
+.intelliexampic {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.medisyncui {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.robertapp {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
 .utilitybillgif {
-    height: 230px;
+    height: 210px;
     width: 300px;
     border-radius: 25px;
     margin-right: 30px;
@@ -350,6 +374,31 @@ br {
         height: 200px;
         padding-right: 0px;
         padding-bottom: 20px;
+    }
+
+    .waddlewafflesintro {
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+
+    .intelliexampic {
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+
+    .medisyncui {
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+
+    .robertapp {
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+
+    .utilitybillgif {
+        margin-right: 0px;
+        margin-bottom: 5px;
     }
 
     .creditcardgif {
@@ -472,6 +521,27 @@ br {
         height: 107px;
         padding-right: 0px;
         padding-bottom: 20px;
+    }
+
+    .waddlewafflesintro {
+        width: 200px;
+    }
+
+    .intelliexampic {
+        width: 200px;
+    }
+
+    .medisyncui {
+        width: 200px;
+    }
+
+    .robertapp {
+        width: 200px;
+    }
+
+    .utilitybillgif {
+        height: 140px;
+        width: 200px;
     }
 
     .creditcardgif {
