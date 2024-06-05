@@ -458,25 +458,25 @@ const Information = forwardRef((props, ref) => {
                         <hr></hr>
                         <div className="courses-block">
                             <b className="semester-title">
-                                Year 3 Semester 2 <div style={{color: "rgb(80, 200, 120)"}}>[Awaiting Results]</div>
+                                Year 3 Semester 2
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
-                                    <li>CLC1101 Engaging and Building Communities</li>
-                                    <li>CS4243 Computer Vision and Pattern Recognition</li>
-                                    <li>DAO1704X Decision Analytics using Spreadsheets</li>
-                                    <li>DSA3101 Data Science in Practice</li>
-                                    <li>DSA4213 Natural Language Processing for Data Science</li>
-                                    <li>HS2914 How to Get Humans and Machines to Talk to Each Other</li>
-                                    <li>ST3247 Simulation</li>
-                                    <li>ST4248 Statistical Learning II</li>
+                                    <li>CLC1101 Engaging and Building Communities <b>S</b></li>
+                                    <li>CS4243 Computer Vision and Pattern Recognition <b>B+</b></li>
+                                    <li>DAO1704X Decision Analytics using Spreadsheets <b>A+</b></li>
+                                    <li>DSA3101 Data Science in Practice <b>A</b></li>
+                                    <li>DSA4213 Natural Language Processing for Data Science <b>A-</b></li>
+                                    <li>HS2914 How to Get Humans and Machines to Talk to Each Other <b>S</b></li>
+                                    <li>ST3247 Simulation <b>B+</b></li>
+                                    <li>ST4248 Statistical Learning II <b>B+</b></li>
                                 </ul>
                             </div>
                         </div>
                         <hr></hr>
                         <div className="courses-block">
                             <b className="semester-title">
-                                Year 4 Semester 1 <div style={{color: "rgb(255, 255, 143)"}}>[To be Confirmed]</div>
+                                Year 4 Semester 1  <div style={{color: "rgb(80, 200, 120)"}}>[Incoming Semester, courses TBC]</div>
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
