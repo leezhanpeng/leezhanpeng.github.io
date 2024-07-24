@@ -10,6 +10,7 @@ import mindef from '../images/mindef-logo.jpg';
 import stb from '../images/stb-logo.png';
 
 import waddlewafflesintro from '../images/waddlewaffles.gif';
+import intelliexam from '../images/intelliexam.jpg';
 import medisyncui from '../images/medisyncui.png';
 import robertapp from '../images/robert.png';
 import utilitybillgif from '../images/utilitybill.gif';
@@ -157,7 +158,7 @@ const Information = forwardRef((props, ref) => {
                         <hr></hr>
                         <div className="project-block">
                             <div className="image-blocks">
-                                <img className="intelliexampic" alt="intelli-exam homepage" src={"https://gcdnb.pbrd.co/images/t8pXukC84AQV.png?o=1"}></img>
+                                <img className="intelliexampic" alt="intelli-exam homepage" src={intelliexam}></img>
                                 <div>
                                     <a href="https://github.com/AY2324S2-DSA4213-TeamBloopers/Intelli-Exam"><img className="redirect-icon" alt="github icon" src={github}></img></a>
                                     <a href="https://drive.google.com/file/d/1pNp2sV7RM6RwVngnLx_y-vU85O4YulEW/view"><img className="redirect-icon" alt="playbtn icon" src={playbtn}></img></a>
