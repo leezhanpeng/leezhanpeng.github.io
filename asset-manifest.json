@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.095ecb53.chunk.css",
-  "main.js": "/static/js/main.59019a46.chunk.js",
-  "main.js.map": "/static/js/main.59019a46.chunk.js.map",
-  "static/js/1.2f754b6f.chunk.js": "/static/js/1.2f754b6f.chunk.js",
-  "static/js/1.2f754b6f.chunk.js.map": "/static/js/1.2f754b6f.chunk.js.map",
+  "main.css": "/static/css/main.a35f95a9.chunk.css",
+  "main.js": "/static/js/main.35a68b1b.chunk.js",
+  "main.js.map": "/static/js/main.35a68b1b.chunk.js.map",
+  "static/js/1.fd8e087c.chunk.js": "/static/js/1.fd8e087c.chunk.js",
+  "static/js/1.fd8e087c.chunk.js.map": "/static/js/1.fd8e087c.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/github.png": "/static/media/github.357c3c73.png",
@@ -11,6 +11,7 @@
   "static/media/Portrait.jpg": "/static/media/Portrait.1c8a215c.jpg",
   "static/media/nus_logo.png": "/static/media/nus_logo.051a8af3.png",
   "static/media/yjc_logo.png": "/static/media/yjc_logo.12540393.png",
+  "static/media/pints.png": "/static/media/pints.c7e1477b.png",
   "static/media/mindef-logo.jpg": "/static/media/mindef-logo.ec3bc357.jpg",
   "static/media/stb-logo.png": "/static/media/stb-logo.47abe4d6.png",
   "static/media/waddlewaffles.gif": "/static/media/waddlewaffles.be586530.gif",
@@ -20,8 +21,8 @@
   "static/media/utilitybill.gif": "/static/media/utilitybill.e3190a23.gif",
   "static/media/creditcard.gif": "/static/media/creditcard.28e815ef.gif",
   "static/media/playbay.gif": "/static/media/playbay.4f126280.gif",
-  "static/css/main.095ecb53.chunk.css.map": "/static/css/main.095ecb53.chunk.css.map",
+  "static/css/main.a35f95a9.chunk.css.map": "/static/css/main.a35f95a9.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.1120aa290fdcad4987b20ec10319995b.js": "/precache-manifest.1120aa290fdcad4987b20ec10319995b.js",
+  "precache-manifest.512dfe5ac40e26e138bee22b87f849ce.js": "/precache-manifest.512dfe5ac40e26e138bee22b87f849ce.js",
   "service-worker.js": "/service-worker.js"
 }
