@@ -29,9 +29,9 @@ const Frontpage = forwardRef((props, ref) => {
                             Data Science & Analytics
                         </span>
                         <br className="year-break"></br>
-                        Specialisation in Statistical Methodology
-                        <br className="year-break"></br>
                         2nd Major in Computer Science
+                        <br className="year-break"></br>
+                        Specialisation in Statistical Methodology
                         <br className="year-break"></br>
                         2021 - 2025
                      </p>

@@ -6,6 +6,7 @@ import github from '../images/github.png';
 import doc from '../images/document.png';
 import playbtn from '../images/playbutton.png';
 
+import pints from '../images/pints.png'
 import mindef from '../images/mindef-logo.jpg';
 import stb from '../images/stb-logo.png';
 
@@ -69,10 +70,10 @@ const Information = forwardRef((props, ref) => {
                     </div>
                     <div className= "intro-para">
                         <p>
-                            I am a year 3 undergraduate at the National University of Singapore &#40;NUS&#41;, majoring in Data Science and Analytics
-                            with a specialisation in Statistical Methodology.
-                            I am also fortunate enough to be taking up a second major in Computer Science to fuel my passion for programming and
-                            enhance my ability as a data scientist/machine learning expert!
+                            I am a final year undergraduate at the National University of Singapore (NUS), double majoring in Data Science & Analytics
+                            and Computer Science, with a specialisation in Statistical Methodology. Passionate about leveraging my skills to make a
+                            meaningful impact, I am excited to apply my knowledge to real-world scenarios and contribute to cutting-edge developments
+                            in machine learning and generative AI.
                         </p>
                     </div>
                 </div>
@@ -83,6 +84,19 @@ const Information = forwardRef((props, ref) => {
                         <br />
                     </div>
                     <div className= "exp-para">
+                        <div className='exp-block'>
+                            <img className="pints" alt="pints logo" src={pints}></img>
+                            <div className="exp-texts">
+                                <p className="exp-name">AI/Software Engineer Intern @ pints.ai</p>
+                                <br />
+                                <p className="exp-desc">
+                                    I am currently interning at pints.ai as an AI/Software Engineer. I have contributed to the development and
+                                    refinement of features for a client's web application using TypeScript. Moving forward, I am excited to engage in
+                                    their AI research and development and exposing myself to the domain of generative AI.
+                                </p>
+                            </div>
+                        </div>
+                        <hr></hr>
                         <div className='exp-block'>
                             <img className="mindef" alt="MINDEF logo" src={mindef}></img>
                             <div className="exp-texts">
@@ -477,24 +491,24 @@ const Information = forwardRef((props, ref) => {
                         <hr></hr>
                         <div className="courses-block">
                             <b className="semester-title">
-                                Year 4 Semester 1  <div style={{color: "rgb(80, 200, 120)"}}>[Incoming Semester, courses TBC]</div>
+                                Year 4 Semester 1  <div style={{color: "rgb(80, 200, 120)"}}>[To Be Confirmed]</div>
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
-                                    <li>DSA426X Sense-Making Case Analysis: - </li>
+                                    <li>DSA4262 Sense-Making Case Analysis: Health and Medicine</li>
+                                    <li>ST4231 Computer Intensive Statistical Methods</li>
                                 </ul>
                             </div>
                         </div>
                         <hr></hr>
                         <div className="courses-block">
                             <b className="semester-title">
-                                Year 4 Semester 2 <div style={{color: "rgb(255, 255, 143)"}}>[To be Confirmed]</div>
+                                Year 4 Semester 2 <div style={{color: "rgb(80, 200, 120)"}}>[To be Confirmed]</div>
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
-                                    <li>CS4225 Big Data Systems for Data Science</li>
-                                    <li>CS4246 AI Planning and Decision Making</li>
-                                    <li>HS29XX - </li>
+                                    <li>HS2923 Human-Animal Relations: History, Biodiversity & Ethics</li>
+                                    <li>ST4253 Applied Time Series Analysis</li>
                                 </ul>
                             </div>
                         </div>

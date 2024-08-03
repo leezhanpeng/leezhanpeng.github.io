@@ -141,6 +141,13 @@ br {
     text-align: left;
 }
 
+.pints {
+    width: 250px;
+    margin-right: 30px;
+    height: 150px;
+    border-radius: 10px;
+}
+
 .mindef {
     width: 250px;
     margin-right: 30px;
@@ -338,6 +345,12 @@ br {
         max-width: 80%;
     }
 
+    .pints {
+        width: 180px;
+        height: 108px;
+        margin-right: 30px;
+    }
+
     .mindef {
         width: 180px;
         height: 120px;
@@ -360,6 +373,13 @@ br {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .pints {
+        width: 280px;
+        height: 168px;
+        margin-right: 0px;
+        margin-bottom: 20px;
     }
 
     .mindef {
@@ -509,6 +529,13 @@ br {
 }
 
 @media screen and (max-width: 450px) {
+    .pints {
+        width: 150px;
+        height: 90px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    
     .mindef {
         width: 150px;
         height: 100px;
