@@ -70,10 +70,9 @@ const Information = forwardRef((props, ref) => {
                     </div>
                     <div className= "intro-para">
                         <p>
-                            I am a final year undergraduate at the National University of Singapore (NUS), double majoring in Data Science & Analytics
-                            and Computer Science, with a specialisation in Statistical Methodology. Passionate about leveraging my skills to make a
-                            meaningful impact, I am excited to apply my knowledge to real-world scenarios and contribute to cutting-edge developments
-                            in machine learning and generative AI.
+                            I’m a recent graduate from the National University of Singapore (NUS), with a double major in Data Science & Analytics and
+                            Computer Science, specializing in Statistical Methodology. Passionate about applying my knowledge in machine learning,
+                            statistical analysis, and generative AI, I’m excited to contribute to impactful projects and cutting-edge innovations in the tech field.
                         </p>
                     </div>
                 </div>
@@ -87,12 +86,16 @@ const Information = forwardRef((props, ref) => {
                         <div className='exp-block'>
                             <img className="pints" alt="pints logo" src={pints}></img>
                             <div className="exp-texts">
-                                <p className="exp-name">AI/Software Engineer Intern @ pints.ai</p>
+                                <p className="exp-name">AI Engineer @ pints.ai</p>
                                 <br />
                                 <p className="exp-desc">
-                                    I am currently interning at pints.ai as an AI/Software Engineer. I have contributed to the development and
-                                    refinement of features for a client's web application using TypeScript. Moving forward, I am excited to engage in
-                                    their AI research and development and exposing myself to the domain of generative AI.
+                                    I am currently working as a full-time AI Engineer/Researcher at Pints.ai, a Singapore-based AI company
+                                    specializing in privacy-first generative AI solutions for the financial industry.
+                                    
+                                    In my role, I research and implement novel ideas to enhance the capabilities of Large Language Models (LLMs),
+                                    focusing on improving performance and solving real-world challenges. I also utilize and improve LLM training
+                                    frameworks for both internal and open-source use, contributing to the development of compact, efficient AI models
+                                    tailored for private deployment.
                                 </p>
                             </div>
                         </div>
