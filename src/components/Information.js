@@ -491,24 +491,23 @@ const Information = forwardRef((props, ref) => {
                         <hr></hr>
                         <div className="courses-block">
                             <b className="semester-title">
-                                Year 4 Semester 1  <div style={{color: "rgb(80, 200, 120)"}}>[To Be Confirmed]</div>
+                                Year 4 Semester 1
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
-                                    <li>DSA4262 Sense-Making Case Analysis: Health and Medicine</li>
-                                    <li>ST4231 Computer Intensive Statistical Methods</li>
+                                    <li>DSA4262 Sense-Making Case Analysis: Health and Medicine <b>A+</b></li>
                                 </ul>
                             </div>
                         </div>
                         <hr></hr>
                         <div className="courses-block">
                             <b className="semester-title">
-                                Year 4 Semester 2 <div style={{color: "rgb(80, 200, 120)"}}>[To be Confirmed]</div>
+                                Year 4 Semester 2 <div style={{color: "rgb(80, 200, 120)"}}>[Awaiting Results]</div>
                             </b>
                             <div className="courses-list-div">
                                 <ul className="courses-list">
-                                    <li>HS2923 Human-Animal Relations: History, Biodiversity & Ethics</li>
-                                    <li>ST4253 Applied Time Series Analysis</li>
+                                    <li>CS4225 Big Data Systems for Data Science</li>
+                                    <li>HS2908 Nature and Nurture: Rethinking Sex and Gender</li>
                                 </ul>
                             </div>
                         </div>
