@@ -71,7 +71,7 @@ const Information = forwardRef((props, ref) => {
                     <div className= "intro-para">
                         <p>
                             I’m a recent graduate from the National University of Singapore (NUS), with a double major in Data Science & Analytics and
-                            Computer Science, specializing in Statistical Methodology. Passionate about applying my knowledge in machine learning,
+                            Computer Science. Passionate about applying my knowledge in machine learning,
                             statistical analysis, and generative AI, I’m excited to contribute to impactful projects and cutting-edge innovations in the tech field.
                         </p>
                     </div>
